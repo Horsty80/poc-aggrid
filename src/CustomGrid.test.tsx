@@ -8,8 +8,8 @@ test('loads and displays greeting', async () => {
   render(<CustomGrid cars={[]} />)
 
   // ACT
-  await screen.findByText('No rows to show')
+  await screen.findByText('No Rows To Show')
 
   // ASSERT
-  expect(screen.getByText('No rows to show')).toBeDefined();
+  expect(screen.getByText('No Rows To Show')).toBeDefined();
 })
