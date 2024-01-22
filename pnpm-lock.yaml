@@ -9,11 +9,11 @@ dependencies:
     specifier: ^6.2.0
     version: 6.2.0(vitest@1.2.1)
   ag-grid-community:
-    specifier: ^31.0.2
-    version: 31.0.2
+    specifier: 31.0.1
+    version: 31.0.1
   ag-grid-react:
-    specifier: ^31.0.2
-    version: 31.0.2(react-dom@18.2.0)(react@18.2.0)
+    specifier: 31.0.1
+    version: 31.0.1(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -1028,17 +1028,17 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  /ag-grid-community@31.0.2:
-    resolution: {integrity: sha512-gxUdHeAZUV2TDHqnDax5QSQgUxIvJ1zaFxUuPzcfiiPwbN6btz6kxg/KNrDfEjQi70JBfJV46BMR9KTG6iAVmQ==}
+  /ag-grid-community@31.0.1:
+    resolution: {integrity: sha512-RZQlW1DTOJHsUR/tnbnTJQKgAnDlHi05YYyTe5AgNor/1TlX1hoYdcqrGsJjvcHQgTjeEgzWOL0yf+KcqXZzxg==}
     dev: false
 
-  /ag-grid-react@31.0.2(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-QAC5Rsr4AaE+vCafyrnEJa7JWcmoXNzJyzZmln0T6QCLG43IuT2hZ3ULmce/IqwP2Kxf+B4hVJOVitVT9SdXkg==}
+  /ag-grid-react@31.0.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-9nmYPsgH1YUDUDOTiyaFsysoNAx/y72ovFJKuOffZC1V7OrQMadyP6DbqGFWCqzzoLJOY7azOr51dDQzAIXLpw==}
     peerDependencies:
       react: ^16.3.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.3.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      ag-grid-community: 31.0.2
+      ag-grid-community: 31.0.1
       prop-types: 15.8.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
